@@ -1,0 +1,26 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #D3D3D3; /* or any background color you prefer */
+  }
+  
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
